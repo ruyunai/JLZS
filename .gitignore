@@ -21,9 +21,9 @@ wheels/
 *.egg
 
 # PyInstaller
-*.spec
 *.manifest
-*.spec
+# Keep our spec file for building
+!PyQt6专用打包.spec
 
 # IDE
 .vscode/
@@ -32,8 +32,8 @@ wheels/
 *.swo
 *~
 
-# Config (contains API keys - do not commit personal config)
-config.json
+# Config template - keep in repo, but user config is separate
+!config.json
 .env
 
 # Build output

@@ -1,0 +1,26 @@
+{
+  "agents": {
+    "agent1_analyze": {
+      "provider": "siliconflow",
+      "model": "Qwen/Qwen2.5-72B-Instruct",
+      "api_base": "https://api.siliconflow.cn/v1",
+      "api_key": ""
+    },
+    "agent2_optimize": {
+      "provider": "siliconflow",
+      "model": "Qwen/Qwen2.5-72B-Instruct",
+      "api_base": "https://api.siliconflow.cn/v1",
+      "api_key": ""
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "language": "zh-CN"
+  },
+  "output": {
+    "directory": "",
+    "naming_template": "{name}_{position}_{date}",
+    "auto_open_folder": true,
+    "show_preview": true
+  }
+}
