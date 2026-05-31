@@ -1,0 +1,24 @@
+# 简历优化助手 - Python 3.14 兼容版本依赖
+
+# 核心GUI框架
+PyQt6==6.11.0
+
+# 打包工具
+pyinstaller>=6.15.0
+
+# AI Agent框架
+langchain-core>=0.3.0
+langgraph>=0.2.0
+
+# AI API客户端
+openai>=1.60.0
+anthropic>=0.38.0
+
+# 文档处理
+python-docx>=1.1.0
+pdfplumber>=0.11.0
+markdown>=3.7.0
+
+# 网络和工具
+requests>=2.32.0
+pydantic>=2.10.0
